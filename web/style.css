@@ -1,0 +1,84 @@
+/* 
+    Document   : style
+    Created on : Feb 18, 2013, 4:20:27 PM
+    Author     : Kuriakose
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body{
+    background-color: lightgray;
+}
+
+#page_container{
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+    background-color: white;
+}
+
+#header{
+    width: 90%;
+    height: 80px;
+    margin: 10px auto 10px auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#navbar{
+    width: 90%;
+    margin: 10px auto 10px auto;
+    padding-top: 2px; 
+    padding-bottom: 2px;
+    border: 1px solid black;    
+}
+
+#navbar ul{    
+    list-style-type:none;
+    margin:0;
+    margin-left: 20px;
+    padding:0;
+}
+
+#content{
+    overflow: hidden;
+    width: 90%;
+    margin: 10px auto 10px auto;
+    border: 1px solid black;
+}
+
+.left_content{
+    width: 70%;
+    float: left;
+}
+
+.right_content{
+    width: 30%;
+    float: right;
+}
+
+.content_piece{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;   
+}
+
+img.right_content_box{
+    display: block;
+    border: 1px black solid;
+    margin: auto;
+}
+
+#footer{
+    width: 90%;
+    clear: both;
+    margin: 10px auto 10px auto;
+    text-align: center;
+    padding-top: 2px; 
+    padding-bottom: 2px;
+    border: 1px solid black;    
+}
